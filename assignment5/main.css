@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 228, 187);
+    color: aliceblue;
+    font-family: 'Quicksand', 'salmonkids';
+}
+#topic1{
+    background-color: rgb(90, 62, 62);
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#comment1{
+    background-color: rgb(82, 62, 62);
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+#comment2{
+    background-color: rgb(90, 81, 90);
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+#text1{
+    background-color: rgb(255, 121, 121);
+    border-radius: 80px;
+    border: 5px dotted rgb(107, 25, 32);
+    font-size: 40px;
+    text-align: center;
+}
+.header{
+    margin-top: 10%;
+    text-align: center;
+}
+.postbut{
+    background-color: rgb(197, 18, 87);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.clearbut{
+    background-color: rgb(146, 34, 77);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.text{
+    color: aliceblue;
+}

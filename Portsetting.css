@@ -1,0 +1,512 @@
+body{
+  background-color: #F5EFEF;
+  font-family: 'Quicksand';
+  margin: 0;
+  margin-right: 0;
+}
+.navbarcontain{
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  background-color: #BFA1AC;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 24px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  background-color: #BFA1AC;
+  margin-right: 0;
+}
+.namelogo{
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+  padding-left: 70%;
+  margin-left: 10%;
+}
+.Menubar{
+  margin-right: 10%;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.menupage{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.first{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+}
+.toppage{
+  width: 100%;
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  flex-direction: row;
+  padding-bottom: 40px;
+  justify-content: space-between;
+}
+h1{
+  font-size: 40px;
+}
+.NameToppage{
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10%;
+  flex-direction: column;
+}
+#pictop{
+  width: 50%;
+  box-shadow: 8px 5px 4px 0px #858585;
+  object-fit: cover;
+  margin-right: 10%;
+  border-top-left-radius: 85%;
+  border-top-right-radius: 55%;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 75%;
+}
+.selfpic{
+  margin-left: 20%;
+}
+img{
+  width: 20%;
+}
+h2{
+  align-self: flex-end;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.section-separation{
+  width: 80%;
+  display: flex;
+  margin: auto;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+}
+#box1pic{
+  width: 70px;
+}
+h3{
+  font-size: 24px;
+}
+h4{
+  font-size: 16px;
+  font-weight: 400;
+}
+.aboutpage{
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  flex-direction: column;
+  /* background-color: chartreuse; */
+}
+.box1{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: coral; */
+}
+.Hobby{
+  text-align: center;
+  margin-left: 10%;
+  /* background-color: aqua; */
+}
+.AboutMe{
+  margin-left: 5%;
+  text-align: center;
+  /* background-color: blue; */
+}
+.Skill{
+  text-align: center;
+  margin-right: 10%;
+  /* background-color: blueviolet; */
+}
+.interestpage{
+  width: 100%;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+  flex-direction: column;
+  /* background-color: darkgoldenrod; */
+}
+.box2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  /* background-color: rgb(216, 240, 0); */
+}
+.Game{
+  text-align: center;
+  margin-left: 15%;
+  /* background-color: violet; */
+}
+.Anime{
+  text-align: center;
+  /* background-color: brown; */
+}
+.Movie{
+  text-align: center;
+  margin-right: 15%;
+  /* background-color: crimson; */
+}
+
+.gameid{
+  text-align: center;
+  /* background-color: blue; */
+}
+#gamelogo{
+  width: 100px;
+}
+.gameidvalo{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: coral; */
+}
+.gameidhk3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: blue; */
+}
+.gameidgs{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3%;
+  /* background-color: aqua; */
+}
+.mypicpage{
+  text-align: center;
+  margin-bottom: 5%;
+  /* background-color: lightslategrey; */
+}
+
+#mypic13{
+  width: 20%;
+  border-radius: 50%;
+}
+#mypic24{
+  width: 20%;
+  border-radius: 50%;
+}
+.footer{
+  width: 100%;
+  max-width: max-content;
+  display: grid;
+  grid-template-columns: 50% auto;
+  align-items: center;
+  flex-direction: row;
+  background-color: #A0A69F;
+}
+#socialpic{
+  width: 5%;
+  margin-left: 3%;
+}
+.social{
+  grid-column: 1 / span 1;
+  padding: 50px;
+  width: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  /* background-color: darkblue; */
+}
+.creditheading{
+  font-weight: 700;
+}
+.credit{
+  grid-column: 2 / span 1;
+  font-size: small;
+  color: white;
+  font-weight: 400;
+  text-align: end;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  /* background-color: hotpink; */
+}
+
+a:visited{
+  color: rgb(255, 255, 255);
+}
+
+a:hover{
+  color: rgb(39, 77, 38);
+}
+/* Resume */
+.cvpic{
+  width: auto;
+  text-align: center;
+  margin: 10%;
+}
+#resumepic{
+  width: 100%;
+}
+
+/* Work */
+.work{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#assignpic{
+  width: 80%;
+  box-shadow: 13px 13px 4px #BFA1AC;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Project */
+.project{
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+video{
+  width: 70%;
+}
+#raiden,#pi,#date,#u{
+  width: 50%;
+}
+#girl,#four,#com,#jelly,#rem,#room,#moon,#sy{
+  width: 100%;
+}
+.syparthia{
+  margin-bottom: 5%;
+}
+.slime{
+  margin-bottom: 5%;
+}
+.animation{
+  margin-bottom: 5%;
+}
+.sticker{
+  margin-bottom: 5%;
+}
+.artwork{
+  margin-bottom: 5%;
+}
+#slimepic{
+  width: 70%;
+}
+#stickerid{
+  width: 70%;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  width: auto;
+  padding: 50px;
+  padding-top: 35%;
+  padding-bottom: 31.5%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 0;
+}
+.prev:hover, .next:hover {
+  background-color: #BFA1AC;
+  opacity: 70%;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px){
+
+  .navbarcontain{
+    position: relative;
+  }
+  .navbar{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .toppage{
+    display: grid;
+    margin-top: 5%;
+  }
+  .Menubar{
+    margin-right: 0;
+  }
+  .menupage{
+    font-size: 50%;
+    margin-left: 10px;
+  }
+  .NameToppage{
+    text-align: center;
+    margin-left: 20%;
+  }
+  h2{
+    justify-items: flex-end;
+  }
+  .selfpic{
+    text-align: center;
+    margin-left: 10%;
+  }
+  .box1{
+    display: grid;
+  }
+  .Hobby{
+    margin-left: 50%;
+  }
+  .AboutMe{
+    margin-left: 50%;
+    margin-top: 10%;
+  }
+  .Skill{
+    margin-left: 60%;
+    margin-top: 10%;
+  }
+  #socialpic{
+    width: 7%;
+    margin-left: 5%;
+  }
+  .credit{
+    font-size: 65%;
+  }
+  .cvpic{
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .prev, .next{
+    top: 12%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .namelogo{
+    padding: 0;
+    font-size: 80%;
+    margin-right: 50px;
+  }
+  .Menubar{
+    margin-right: 30px;
+  }
+  .menupage{
+    margin-right: 0;
+    margin-left: 40px;
+  }
+  .toppage{
+    margin-top: 0;
+  }
+  .NameToppage{
+    justify-items: center;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .box1{
+    display: grid;
+  }
+  .Hobby{
+    margin: 0;
+  }
+  .AboutMe{
+    margin: 0;
+    margin-top: 10%;
+  }
+  .Skill{
+    margin: 0;
+    margin-top: 10%;
+  }
+  .box2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .Game{
+    margin-left: 0;
+    grid-column: 2 / span 1;
+  }
+  .Anime{
+    grid-column: 2 / span 1;
+  }
+  .Movie{
+    margin-right: 0;
+    grid-column: 2 / span 1;
+  }
+  #socialpic{
+    width: 15%;
+    margin-left: 5%;
+  }
+  .prev, .next{
+    top: 15%;
+    padding-top: 31.5%;
+  }
+}
