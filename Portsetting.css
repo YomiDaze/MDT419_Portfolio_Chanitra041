@@ -261,7 +261,9 @@ h4{
   margin-bottom: 1%;
   /* background-color: hotpink; */
 }
-
+a:link{
+  color: rgb(255, 255, 255);
+}
 a:visited{
   color: rgb(255, 255, 255);
 }
